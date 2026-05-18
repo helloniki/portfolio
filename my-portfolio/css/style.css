@@ -113,7 +113,7 @@ img {
     list-style: none;
 }
 .main-nav a {
-    color: #fff;
+    color: rgb(128, 128, 128);
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 .main-nav a:hover {
@@ -130,13 +130,16 @@ img {
     height: 600px;
 }
 .sub-cover {
-    background-color: #495057;
+    background-color: rgb(192, 192, 192);
     background-size: cover;
     background-position: center;
     height: 350px;
     margin-bottom: 4rem;
 }
 
+.cover-home{ background-image: url(../images/kame.png); }
+.cover-blog { background-image: url(../images/kame.png); }
+.cover-works { background-image: url(../images/kame.png); }
 /* ※ 画像を用意する場合はここにPC等の背景画像のパスを指定します */
 /*
 .cover-home { background-image: url(../images/hero-home.jpg); }
